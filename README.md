@@ -10,6 +10,7 @@ SEE RELEASES:]
  private fun result(text: String) {
  
         val engine:ScriptEngine = ScriptEngineManager().getEngineByName("rhino")
+        
         try {
             lateinit var result:Any
             if (text.length>0){ 
@@ -20,8 +21,8 @@ SEE RELEASES:]
             }else{
                 resultText.setText(main)
             }
-        }catch ( e:ScriptException
-        ){
+        }catch ( e:ScriptException){
+        
             Log.d("Tag","Error")
 
         }
