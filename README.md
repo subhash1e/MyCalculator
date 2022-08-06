@@ -14,8 +14,9 @@ SEE RELEASES:]
 
         try {
             lateinit var result:Any
-            if (text.length>0){ result= engine.eval(text)}
-            var main = result.toString()
+            if (text.length>0){ 
+                result= engine.eval(text)}
+                var main = result.toString()
             if (check ==0){
                 resultText.text = null
             }else{
