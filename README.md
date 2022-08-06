@@ -6,7 +6,7 @@ SEE RELEASES:]
 ``
 //This is result fun for calculating expression
 
-
+`
  private fun result(text: String) {
         val engine:ScriptEngine = ScriptEngineManager().getEngineByName("rhino")
 
